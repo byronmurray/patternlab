@@ -1,0 +1,17 @@
+<section id="two" class="wrapper style2 special">
+	<div class="container">
+
+		{% include "molecules-heading-group" %}
+
+    <div class="row 150%">
+
+      {% for post in latest_posts %}
+        {% include "molecules-block-media" %}
+      {% endfor %}
+
+    </div>
+
+		{% include "molecules-block-action" %}
+
+	</div>
+</section>

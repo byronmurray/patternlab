@@ -1,0 +1,59 @@
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+.button {
+		appearance: none;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		background-color: #323037;
+		border-radius: 4px;
+		color: #ffffff !important;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: 700;
+		height: 3.15em;
+		line-height: 3.25em;
+		padding: 0 2.2em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		white-space: nowrap;
+	&:hover, &:focus {
+		background-color: #3e3c45;
+	}
+	&:active {
+		background-color: #262429;
+	}
+}
+
+.button__primary {
+	@extend .button;
+}
+
+.button__secondary {
+	@extend .button;
+	background-color: #f32853;
+	&:hover, &:focus {
+		background-color: #f44066;
+	}
+	&:active {
+		background-color: #f21040;
+	}
+}
+
+.btn-small {
+	padding: $pad-half;
+}
+
+.btn-large {
+	padding: $pad-half;
+	text-transform: uppercase;
+	background: $gray;
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+
+.text-btn {
+	font-style: italic;
+}

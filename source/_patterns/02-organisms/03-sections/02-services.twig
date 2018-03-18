@@ -1,0 +1,13 @@
+<section id="three" class="wrapper style1">
+	<div class="container">
+
+		{% include "molecules-heading-group" %}
+
+		<div class="feature-grid">
+
+			{% for service in services %}
+        {% include "molecules-block-service" %}
+      {% endfor %}
+
+	</div>
+</section>

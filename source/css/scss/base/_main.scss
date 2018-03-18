@@ -1,0 +1,104 @@
+body {
+	background: $white;
+	font-family: $font;
+	font-size: 13pt;
+	font-weight: 400;
+	line-height: 2em;
+	color: #666;
+}
+
+// sevices
+.feature-grid .feature {
+    display: flex !important;
+}
+
+.feature-grid .feature:nth-child(2n+1) .image {
+	order: 1;
+}
+
+// call to action
+
+.wrapper.style3 header.major h2 {
+    color: unset;
+}
+
+// navbar
+nav a {
+  color: #ddd;
+	font-size: 21.6667px;
+	padding: 0 !important;
+}
+
+
+#header.alt h1 a {
+    color: #ddd;
+}
+
+#header.alt h1 {
+    color: #ddd;
+    left: 2.5em;
+    top: 2em;
+}
+
+// media block
+.image.fit.captioned {
+    max-width: 670px;
+		text-align: center;
+		h3 {
+			background-color: #fff;
+			box-shadow: 0px 0.0375em 0.125em 0px rgba(0, 0, 0, 0.15);
+			display: block;
+			padding: 2em 1em;
+		}
+}
+
+
+ul.actions li {
+    display: inline-block;
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+// service block
+.feature {
+    display: flex;
+		.content {
+			margin-left: 5%;
+		}
+}
+
+// Footer
+.icons li {
+    padding-right: 2.5em !important;
+}
+
+.copyright {
+	color: #aaa;
+	a {
+		color: #aaa;
+	}
+	a:active, #footer a:hover {
+    color: #666;
+	}
+}
+
+
+.hero-block {
+	text-align: center;
+	h2 {
+    //color: #ffffff;
+    display: inline-block;
+    font-size: 3.5em;
+    line-height: 1.35;
+    margin-bottom: 0.5em;
+	}
+	p {
+	 color: #aaa;
+	 font-size: 1.5em;
+	 margin-bottom: 1.75em;
+	 text-transform: uppercase;
+	}
+	.button {
+		font-size: 1.35em;
+	}
+}
